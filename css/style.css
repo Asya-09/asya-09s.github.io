@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background: linear-gradient(180deg, #242d36 0%, #b1bac3 100%);
+}
+
+a{
+    color: #14181D;
+    text-decoration: none;
+}
+
+.nav-link{
+    color: #6E8AA5;
+}
+
+.navbar-nav .nav-link.active{
+    color: #FCBE76;
+}
+
+.navbar-brand img{
+    width: 70px;
+}
+
+.navbar-toggler{
+    background-color: #6E8AA5;
+}
+
+.sidebar{
+    color: #14181D;
+    background-color: #ffd9ae;
+}
+
+.card{
+    color: #14181D;
+    background-color: #6E8AA5;
+    border: none;
+}
+
+.btn-primary{
+    background-color: #14181D;
+    border: none;
+    color: #b1bac3;
+}
+
+.btn-primary:hover{
+    background-color: #ffd9ae;
+    border: none;
+    color: #864b07;
+    font-weight: bold;
+}
+
+.slide-text{
+    color: #ffd9ae;
+    margin: auto 0;
+    max-width: 500px;
+}
+
+.carousel-indicators{
+    right: 650px;
+}
+
+@media (max-width: 755px){
+    .carousel-indicators{
+        display: none;
+    }
+    .slide-text{
+        margin-top: 20px;
+    }
+    .marj{
+        margin-bottom: 50px;
+    }
+}
+
+footer{
+    background: linear-gradient(360deg, #242d36 0%, #b1bac3 100%);
+    margin-top: 1.4rem;
+}
+
+.footer-text{
+    color: #242d36;
+    margin: auto auto;
+    padding: 1.4rem;
+}
+
+.media-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.can-help{
+    color: #242d36;    
+}
+
+.call-anim{
+animation: call 2s ease 5s 100 normal forwards;
+}
+
+@keyframes call {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+.right-text{
+    margin-top: 1rem;
+}
